@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: 1.2% 0 0 0;
+    border-radius: 20px;
+    background-color:white;
+    border: 6px solid #03e9f4;
+}
+header{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    padding: 17px 0;
+    cursor: default;
+    font-weight: 700;
+    font-family: Helvetica;
+    color: #496BF1;
+    border-bottom: 4px solid #03e9f4;
+}
+form{
+    padding: 40px 60px 25px 60px;
+}
+label{
+    font-weight: bold;
+    font-family: Helvetica;
+    margin-left: 135px;
+}
+input{
+    height: 42px;
+    width: 26%;
+    text-align: center;
+    font-size: large;
+    margin: 5px 77.5px 10px 135px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #496BF1;
+    background-color: aliceblue;
+}
+.personal-Information{
+    width: calc(100% -20px);
+    padding: 0px 0 0 40px;
+    flex-wrap: wrap;
+}
+.personal-Information #Label-1{
+    margin-left: 36.2%;
+}
+.personal-Information #Label-2{
+    margin-left: 34.6%;
+}
+.personal-Information #Label-3{
+    margin-left: 38.3%;
+}
+.Submit-Form-Div{
+    width: 69%;
+    margin: 25px 0 0 175px;
+    background-color: #496BF1;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 2px #222;
+}
+#submit-button{
+    margin: 0 0 0 0;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
