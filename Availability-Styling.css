@@ -1,0 +1,122 @@
+.Container{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color:white;
+    border: 6px solid #03e9f4;
+    visibility: hidden;
+}
+header{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    padding: 17px 0;
+    cursor: default;
+    font-weight: 700;
+    font-family: Helvetica;
+    color: #496BF1;
+    border-bottom: 4px solid #03e9f4;
+}
+input{
+    height: 42px;
+    width: 100%;
+    text-align: center;
+    background-color: aliceblue;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #496BF1;
+    font-size: large;
+    margin: 3px 0 5px 0;
+}
+textarea{
+    font-size: large;
+    margin-top: 5px;
+    height: 100px;
+    width: 100%;
+    resize: none;
+    padding: 7px;
+    color: #202020;
+    border: 1.5px solid #496BF1;
+    border-radius: 5px;
+    outline: none;
+}
+form{
+    padding: 40px 60px 35px 60px;
+}
+.Grid-Container-1{
+    display: grid;
+    gap: 10px 90px;
+    grid-template-columns: 1fr 1fr;
+}
+.Grid-Container-2{
+    display: grid;
+    width: 75%;
+    margin-left: 15.5%;
+    gap: 10px 90px;
+    grid-template-columns: 1fr;
+}
+.Option{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#Yes-Available, #No-Available{
+    display: none;
+}
+.Label-5{
+    height: 42px;
+    width: 130px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    border-radius: 5px;
+    border: 2px solid #496BF1;
+    margin: 5px 0 5px 0;
+}
+.Label-5::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 3px solid #496BF1;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 4px;
+}
+input[type="radio"]:checked + .Label-5{
+    background-color: #496BF1;
+    color: #fff;
+    border: 2px solid white;
+    box-shadow: 0 0 4px 1px #222;
+}
+input[type="radio"]:checked + .Label-5::before{
+    width: 10px;
+    height: 10px;
+    border: 6px solid white;
+    background-color: #496BF1;
+}
+.Grid{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: large;
+}
+#submit-button{
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    background-color: #496BF1;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 0 4px 2px #222;
+}
